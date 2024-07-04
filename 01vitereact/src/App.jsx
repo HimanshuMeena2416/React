@@ -1,5 +1,7 @@
+import My from "./my";
+
 function App() {
-  return <h1>himz scorpion</h1>;
+  return <My />;
 }
 
 export default App;
