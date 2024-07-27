@@ -4,7 +4,6 @@ function My() {
     <>
       <h2>testing code</h2>
       <p>yaha bhi test kr rha bhai</p>
-      <h3>Aise</h3>
     </>
   );
 }
