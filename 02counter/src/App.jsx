@@ -13,7 +13,10 @@ function App() {
   //let counter = 5;
   const incValue = () => {
     if (counter < 20) {
-      setCounter(counter + 1);
+      setCounter((prevCounter) => prevCounter + 1);
+      setCounter((prevCounter) => prevCounter + 1);
+      setCounter((prevCounter) => prevCounter + 1);
+      setCounter((prevCounter) => prevCounter + 1);
     }
   };
   const decValue = () => {
